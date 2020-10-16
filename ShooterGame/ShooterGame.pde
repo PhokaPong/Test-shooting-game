@@ -305,7 +305,7 @@ void draw(){
    
    // for remove the zombie that collide with bullet
    for(int bulletIndex=0; bulletIndex<bullets.size() ; bulletIndex++){
-    for(int zombieIndex=0; zombieIndex<zombies.size() ; zombieIndex++){
+    for(int zombieIndex=3; zombieIndex<zombies.size() ; zombieIndex++){
        Zombie z = zombies.get(zombieIndex);
        Bullet b = bullets.get(bulletIndex);
        
